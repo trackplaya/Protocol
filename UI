@@ -277,11 +277,11 @@ Library.Themes = {
         SecondaryColor = Color3.fromRGB(60, 60, 80)
     },
     ['protocol'] = {
-        BackgroundColor = Color3.fromRGB(0, 0, 0),
-        PrimaryTextColor = Color3.fromRGB(255, 255, 255),
-        SecondaryTextColor = Color3.fromRGB(230, 230, 230),
-        AccentColor = Color3.fromRGB(50, 50, 50),
-        SecondaryColor = Color3.fromRGB(255, 255, 255)
+        BackgroundColor = Color3.fromRGB(0, 0, 0), -- black
+        PrimaryTextColor = Color3.fromRGB(255, 0, 0), -- red
+        SecondaryTextColor = Color3.fromRGB(255, 162, 0), -- orange
+        AccentColor = Color3.fromRGB(16, 29, 208), -- blue
+        SecondaryColor = Color3.fromRGB(255, 255, 255) -- white
     }
 }
 Library.Prefix = Utility:StringToKeyCode(';')
