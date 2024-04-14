@@ -326,10 +326,10 @@ function Library:CreateWindow(Properties)
                 Position = UDim2.new(0.5, 0, 0.5, -30),
                 BorderSizePixel = 0,
                 Size = UDim2.new(0, 170, 0, 20),
-                Font = Enum.Font.Gotham,
+                Font = Enum.Font.RuckSack,
                 Text = IntroText,
                 TextColor3 = Theme.PrimaryTextColor,
-                TextSize = 18,
+                TextSize = 45,
                 ZIndex = 2,
                 TextXAlignment = Enum.TextXAlignment.Center
             }),
